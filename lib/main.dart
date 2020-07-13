@@ -87,7 +87,6 @@ class MyApp extends StatelessWidget {
               title: 'Cabelereiro',
             ),
         // TODO: Alterar cores do gás
-        // TODO: Adicionar comida rápida
         // TODO: Adicionar gás
         // TODO: Adicionar farmácia
         // TODO: Adicionar Padaria
