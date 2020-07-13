@@ -23,7 +23,7 @@ class MyBottom extends StatelessWidget {
         ),
         child: FlatButton(
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.fromLTRB(2, 8, 2, 2),
             child: Column(
               children: <Widget>[
                 Image.asset(
@@ -32,7 +32,15 @@ class MyBottom extends StatelessWidget {
                 ),
                 SizedBox(
                   height: 30,
-                  child: Center(child: Text(name)),
+                  child: Center(
+                    child: Text(
+                      name,
+                      style: TextStyle(
+                        fontSize: 12,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ),
               ],
             ),
