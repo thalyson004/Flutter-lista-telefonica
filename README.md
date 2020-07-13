@@ -38,7 +38,16 @@ O principal objetivo do projeto foi aprender um pouco mais sobre o desenvolvimen
 </div>
 
 ### Features
+- ListView de botões que abrem listas de constatos
+- Listas de contatos separados por categorias
+- Com um click, abre conversa no whatsapp com o contato
+- Com um click, abre chamada de telefone com o contato
+
 
 ### Possíveis melhorias
-...
+- [ ] Armazenar contatos em banco de dados
+- [ ] Automatizar construção de botões utilizando as listas salvas
+- [ ] Automatizar construção de rotas utilizando ass listas salvas
+
+
 
