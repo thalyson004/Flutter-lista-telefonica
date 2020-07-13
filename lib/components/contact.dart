@@ -86,7 +86,7 @@ class Contact extends StatelessWidget {
                           },
                           child: PhoneText(
                             phone: phone,
-                            icon: FontAwesomeIcons.phone,
+                            icon: Icons.phone,
                             iconColor: Colors.blue,
                           ),
                         ),
