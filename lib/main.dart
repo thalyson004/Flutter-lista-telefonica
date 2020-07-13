@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
         '/costureira': (context) => ContactList(
               myList: costureira,
               img: 'costureira.png',
-              title: 'costureira',
+              title: 'Costureira',
             ),
         '/pedreiro': (context) => ContactList(
               myList: pedreiro,
@@ -72,14 +72,14 @@ class MyApp extends StatelessWidget {
               title: 'Pedreiro',
             ),
         '/pintor': (context) => ContactList(
-              myList: faxina,
+              myList: pintor,
               img: 'pintor.png',
-              title: 'pintor',
+              title: 'Pintor',
             ),
         '/mecanico': (context) => ContactList(
-              myList: faxina,
+              myList: mecanico,
               img: 'mecanico.png',
-              title: 'mecanico',
+              title: 'Mecânico',
             ),
         '/cabelereiro': (context) => ContactList(
               myList: cabelereiro,
@@ -91,11 +91,6 @@ class MyApp extends StatelessWidget {
         // TODO: Adicionar gás
         // TODO: Adicionar farmácia
         // TODO: Adicionar Padaria
-        // TODO: Adicionar Faxina
-        // TODO: Adicionar Costureira
-        // TODO: Adicionar Pedreiro
-        // TODO: Adicionar Mecânico
-        // TODO: Adicionar pintor
       },
     );
   }
