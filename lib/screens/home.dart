@@ -100,17 +100,17 @@ class Home extends StatelessWidget {
               children: <Widget>[
                 MyBottom(
                   image: 'images/faxina.png',
-                  route: '/water',
+                  route: '/faxina',
                   name: 'Faxina',
                 ),
                 MyBottom(
-                  image: 'images/sewing.png',
-                  route: '/food',
+                  image: 'images/costureira.png',
+                  route: '/costureira',
                   name: 'Costureira',
                 ),
                 MyBottom(
                   image: 'images/pedreiro.png',
-                  route: '/food',
+                  route: '/pedreiro',
                   name: 'Pedreiro',
                 ),
               ],
@@ -119,13 +119,13 @@ class Home extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 MyBottom(
-                  image: 'images/wrench.png',
-                  route: '/water',
+                  image: 'images/mecanico.png',
+                  route: '/mecanico',
                   name: 'Mecânico',
                 ),
                 MyBottom(
                   image: 'images/pintor.png',
-                  route: '/food',
+                  route: '/pintor',
                   name: 'Pintor',
                 ),
                 MyBottom(
@@ -141,10 +141,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
-/*
-* Serviços
-* Comida
-* Supermecados
-* Farmácias
-* */

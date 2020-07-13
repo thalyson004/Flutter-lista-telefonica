@@ -56,6 +56,31 @@ class MyApp extends StatelessWidget {
             ),
 
         //Serviços
+        '/faxina': (context) => ContactList(
+              myList: faxina,
+              img: 'faxina.png',
+              title: 'Faxina',
+            ),
+        '/costureira': (context) => ContactList(
+              myList: costureira,
+              img: 'costureira.png',
+              title: 'costureira',
+            ),
+        '/pedreiro': (context) => ContactList(
+              myList: pedreiro,
+              img: 'pedreiro.png',
+              title: 'Pedreiro',
+            ),
+        '/pintor': (context) => ContactList(
+              myList: faxina,
+              img: 'pintor.png',
+              title: 'pintor',
+            ),
+        '/mecanico': (context) => ContactList(
+              myList: faxina,
+              img: 'mecanico.png',
+              title: 'mecanico',
+            ),
         '/cabelereiro': (context) => ContactList(
               myList: cabelereiro,
               img: 'cabelereiro.png',
