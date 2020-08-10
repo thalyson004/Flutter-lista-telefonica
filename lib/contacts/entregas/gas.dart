@@ -2,37 +2,8 @@ import 'package:listatelefonicalimoeiro/mycontact.dart';
 
 List<MyContact> gas = [
   MyContact(
-    name: 'Gás',
-    whatsapp: '+55 (88) 9 9497-7046',
-    phone: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Gás',
-    whatsapp: '+55 (88) 9 9497-7046',
-    phone: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Gás',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Gás',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
+    name: 'SuperGasbras',
+//    whatsapp: '+55 (88) 9 8153-0243',
+    phone: '+55 (88) 2142-1011',
   ),
 ];

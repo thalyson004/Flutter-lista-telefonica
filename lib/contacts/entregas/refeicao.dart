@@ -2,37 +2,18 @@ import 'package:listatelefonicalimoeiro/mycontact.dart';
 
 List<MyContact> refeicao = [
   MyContact(
-    name: 'Refeição',
-    whatsapp: '+55 (88) 9 9497-7046',
-    phone: '+55 (88) 9 9497-7046',
+    name: 'Marmitaria Delicias Caseiras',
+//    whatsapp: '+55 (88) 9 9257-2744',
+    phone: '+55 (88) 9 9257-2744',
   ),
+//  MyContact(
+//    name: 'Cuscuzeria Danado de Bom',
+//    whatsapp: '+55 (88) 9 8132-4172',
+//    phone: '+55 (88) 9 8132-4172',
+//  ),
   MyContact(
-    name: 'Refeição',
-    whatsapp: '+55 (88) 9 9497-7046',
-    phone: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Refeição',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Refeição',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
-  ),
-  MyContact(
-    name: 'Comida',
-    whatsapp: '+55 (88) 9 9497-7046',
+    name: 'Marmitaria Delícias da Hora',
+    whatsapp: '+55 (88) 9 9290-5215',
+    phone: '+55 (88) 9 9290-5215',
   ),
 ];
