@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
                   content: Column(
                     children: <Widget>[
                       Text(
-                        "Esse aplicativo foi desenvolvido com objetivo educacional.\n\nÉ livre de anúncios e aberto para críticas e sugestões.\n\nPara sugerir atualizações, como novas funcionalidades ou novos contatos, nos envie email.\n\nemail: binador004@gmail.com",
+                        "Esse aplicativo foi desenvolvido com objetivo educacional.\n\nÉ livre de anúncios e aberto para críticas e sugestões.\n\nPara sugerir atualizações, como funcionalidades, contatos ou seções, nos envie email.\n\nemail: binador004@gmail.com",
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           fontSize: 15,
@@ -94,47 +94,47 @@ class Home extends StatelessWidget {
                 ),
               ],
             ),
-            myText('Serviços', 30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                MyBottom(
-                  image: 'images/faxina.png',
-                  route: '/faxina',
-                  name: 'Faxina',
-                ),
-                MyBottom(
-                  image: 'images/costureira.png',
-                  route: '/costureira',
-                  name: 'Costureira',
-                ),
-                MyBottom(
-                  image: 'images/pedreiro.png',
-                  route: '/pedreiro',
-                  name: 'Pedreiro',
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                MyBottom(
-                  image: 'images/mecanico.png',
-                  route: '/mecanico',
-                  name: 'Mecânico',
-                ),
-                MyBottom(
-                  image: 'images/pintor.png',
-                  route: '/pintor',
-                  name: 'Pintor',
-                ),
-                MyBottom(
-                  image: 'images/cabelereiro.png',
-                  route: '/cabelereiro',
-                  name: 'Cabelereiro',
-                ),
-              ],
-            ),
+//            myText('Serviços', 30),
+//            Row(
+//              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//              children: <Widget>[
+//                MyBottom(
+//                  image: 'images/faxina.png',
+//                  route: '/faxina',
+//                  name: 'Faxina',
+//                ),
+//                MyBottom(
+//                  image: 'images/costureira.png',
+//                  route: '/costureira',
+//                  name: 'Costureira',
+//                ),
+//                MyBottom(
+//                  image: 'images/pedreiro.png',
+//                  route: '/pedreiro',
+//                  name: 'Pedreiro',
+//                ),
+//              ],
+//            ),
+//            Row(
+//              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//              children: <Widget>[
+//                MyBottom(
+//                  image: 'images/mecanico.png',
+//                  route: '/mecanico',
+//                  name: 'Mecânico',
+//                ),
+//                MyBottom(
+//                  image: 'images/pintor.png',
+//                  route: '/pintor',
+//                  name: 'Pintor',
+//                ),
+//                MyBottom(
+//                  image: 'images/cabelereiro.png',
+//                  route: '/cabelereiro',
+//                  name: 'Cabelereiro',
+//                ),
+//              ],
+//            ),
           ],
         ),
       ),

@@ -12,9 +12,7 @@ class _LoadState extends State<Load> {
     Future.delayed(
       const Duration(milliseconds: 5000),
       () {
-        setState(() {
-          Navigator.pushReplacementNamed(context, '/home');
-        });
+        Navigator.pushReplacementNamed(context, '/home');
       },
     );
     return Scaffold(
