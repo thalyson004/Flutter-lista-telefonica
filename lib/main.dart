@@ -17,6 +17,11 @@ class MyApp extends StatelessWidget {
         DeviceOrientation.portraitUp,
       ],
     );
+    // TODO: Ligar para verificar todos os números
+    // TODO: Procurar Whatsapp
+    // TODO: Adicionar Icone
+    // TODO: Alterar Tamanho das imagens
+    // TODO: Publicar
 
     return MaterialApp(
       initialRoute: '/',
