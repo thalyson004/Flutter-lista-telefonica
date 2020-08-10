@@ -13,10 +13,10 @@ class Contact extends StatelessWidget {
   final String phone;
 
   Widget build(BuildContext context) {
-    print(name);
-    print(whatsapp);
-    print(location);
-    print(phone);
+//    print(name);
+//    print(whatsapp);
+//    print(location);
+//    print(phone);
 
     return Padding(
       padding: const EdgeInsets.all(8.0),
